@@ -1,0 +1,42 @@
+#top-bar{
+    background-color: #4B64F2;
+    margin: 0;
+    padding:0;
+}
+#developer-name{
+    color:#0D0D0D;
+    font-size: 25px;
+    vertical-align: 50%;
+    padding-left: 10px;
+    display: inline;
+}
+header{
+    display: inline;
+    margin: 20px;
+}
+nav{
+    display: inline;
+}
+
+#nav-bar{
+    list-style-type:none;
+    float: right;
+}
+.bar-links{
+    display: inline;
+    padding: 25px;
+    font-size: 15px;
+}
+
+body{
+    font-family: monospace;
+}
+h1{
+    text-align: center;
+    padding: 50px;
+    font-size: 40px;
+    color: #0511F2;
+}
+body{
+    background-color: #AEB2F2;
+}
