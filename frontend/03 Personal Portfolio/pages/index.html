@@ -16,12 +16,15 @@
                 <li class="bar-links">
                     <a href="index.html">Home</a>
                 </li>
+                <p class="bar-dash" style="display: inline;">/</p>
                 <li class="bar-links">
                     <a href="projects.html">Projects</a>
                 </li>
+                <p class="bar-dash" style="display: inline;">/</p>
                 <li class="bar-links">
                     <a href="article.html">Articles</a>
                 </li>
+                <p class="bar-dash" style="display: inline;">/</p>
                 <li class="bar-links">
                     <a href="contact.html">Contact</a>
                 </li>
@@ -30,23 +33,25 @@
     </div>
     <main>
         <h1>Frontend Developer</h1>
-        <section>
+        <div id="project-box">
             <h3>Projects</h3>
-            <ul>
-                <li>HTML Only Portfolio</li>
-                <li>Calculator</li>
-                <li>Quiz App</li>
-                <li>Countdown Timer</li>
-                <li>Product Upcoming Page</li>
+            <ul id="projects">
+                <li class="projects">HTML Only Portfolio</li>
+                <li class="projects">Calculator</li>
+                <li class="projects">Quiz App</li>
+                <li class="projects">Countdown Timer</li>
+                <li class="projects">Product Upcoming Page</li>
             </ul>
-        </section>
+        </div>
         <article>
-            <h3>Work Experience</h3>
-            <li>roadmap.sh</li>
-            <p>Solved all the frontend projects</p>
-            <a href="https://roadmap.sh/u/docjusticia" class="profile-link" target="_blank">Visit my profile</a>
+            <div id="work-experience-box">
+                <h3>Work Experience</h3>
+                <li>roadmap.sh</li>
+                <p>Solved all the frontend projects</p>
+                <a href="https://roadmap.sh/u/docjusticia" class="profile-link" target="_blank">Visit my profile</a>
+            </div>
         </article>
-        <section>
+        <div id="opensource-work-box">
             <h3>OpenSource Work</h3>
             <p>
                 Contributed to 50 opensource <br>
@@ -54,8 +59,8 @@
                 200 GitHub Stars
             </p>
             <a href="https://github.com/DocJusticia1" class="profile-link">Visit my GitHub Profile</a>
-        </section>
-        <section>
+        </div>
+        <div id="education-box">
             <h3>Education</h3>
             <p>
                 Graduated with 3.76 out of 4 <br>
@@ -74,8 +79,8 @@
                 <li>Distributed Database Systems</li>
                 <li>Discreet Mathematics</li>
             </ul>
-        </section>
-        <section>
+        </div>
+        <div id="reviews-box">
             <h3>Reviews from my Teachers</h3>
             <div class="review">
                 <p>
@@ -101,7 +106,7 @@
                 </p>
                 <p class="professor-name">Jane Doe <br> Assistant Professor</p>
             </div>
-        </section>
+        </div>
     </main>
     <footer>
         <p id="copyright">&#169 all rights reserved 2025</p>

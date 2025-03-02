@@ -18,14 +18,22 @@ nav{
     display: inline;
 }
 
-#nav-bar{
+li{
     list-style-type:none;
+    padding: 0;
+}
+
+#nav-bar{
     float: right;
 }
 .bar-links{
     display: inline;
-    padding: 25px;
-    font-size: 15px;
+    padding: 20px;
+    font-size: 17px;
+}
+.bar-dash{
+    font-family: monospace;
+    font-size: 17px;
 }
 
 body{
@@ -36,7 +44,23 @@ h1{
     padding: 50px;
     font-size: 40px;
     color: #0511F2;
+    border-bottom: black medium solid;
 }
 body{
     background-color: #AEB2F2;
 }
+
+h3{
+    font-size: 30px;
+    padding-left: 25px;
+}
+
+#projects{
+    padding-left: 25px;
+}
+.projects{
+    padding-top: 50px; /* TODO: CONSEGUIR QUE LAS LISTAS NO TENGAN MÁS UN ESPACIO*/
+    border-bottom: 1px solid black;
+    padding-left: 1px;
+}
+
